@@ -14,11 +14,11 @@ public class Reto4{
        }
        else if(azar.equals( "papel") && num==2)
        {
-        System.out.println("Es el ganador al esocger papel");
+        System.out.println("Es el ganador al escoger papel");
        }
        else if(azar.equals( "tijeras") && num==3)
        {
-        System.out.println("Es el ganador por esocger tijeras");
+        System.out.println("Es el ganador por escoger tijeras");
        }
        else{
         System.out.println("Usted ha perdido, Renintentar");
