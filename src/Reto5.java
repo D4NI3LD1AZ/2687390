@@ -11,7 +11,9 @@ public class Reto5{
        System.out.println("Su apellido tiene una longitud de " + apellido.length());
        System.out.println("Su nombre en mayusculas es: " + nombre.toUpperCase());
        System.out.println("Su apellido en minuscula es: " + apellido.toLowerCase());
-       completo =("su nombre completo es: " + nombre + apellido);
+       completo=  nombre+" "+ apellido;
+       System.out.println("Su nombre completo es "+ completo);
+       
     lectura.close();
 }
 }
