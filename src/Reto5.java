@@ -13,7 +13,7 @@ public class Reto5{
        System.out.println("Su apellido en minuscula es: " + apellido.toLowerCase());
        completo=  nombre+" "+ apellido;
        System.out.println("Su nombre completo es "+ completo);
-       
+       System.out.println(nombre.substring(0, 2)+apellido);
     lectura.close();
 }
 }
