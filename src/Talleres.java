@@ -1,19 +1,15 @@
 import java.util.Scanner;
 public class Talleres {
 
+    static Scanner lectura = new Scanner (System.in);
     public static void main(String[] args) throws Exception {
-    Scanner lectura = new Scanner (System.in);
-    int nota1,nota2,nota3,nota4;
-        System.out.println("Ingrese su primera nota del 1 taller de 10 a 50:");
-        nota1= lectura.nextInt();
-        System.out.println("Ingrese su segunda nota del 2 taller de 10 a 50:");
-        nota2= lectura.nextInt();
-        System.out.println("Ingrese su tercera nota del 3 taller de 10 a 50:");
-        nota3= lectura.nextInt();
-        System.out.println("Ingrese su tercera nota del 4 taller de 10 a 50:");
-        nota4= lectura.nextInt();
-        double  promedio;
-        promedio = ((nota1 + nota2 + nota3 + nota4 )/ 4);
+    double nota,promedio=0,acumulador;
+    for(int x=1;x<=4;x++){
+        System.out.println("Digite la nota del taller");
+        nota= lectura.nextDouble();
+        acumulador=nota/4;
+        promedio=acumulador+promedio;
+    }
         if (promedio >=00 && promedio<=29)
         {
             System.out.println("Su promedio de nota es " + promedio + " Reprobaste la asignatura");
@@ -30,6 +26,5 @@ public class Talleres {
         {
         System.out.println("Su promedio de nota es " + promedio + " Error en el sistema, vuelva a intentar");
         }
-        lectura.close();
     }
-}
+    }
