@@ -1,14 +1,15 @@
 import java.util.Scanner;
 public class Curso{
+    static Scanner entrada=new Scanner (System.in);
     public static void main(String[] args) throws Exception {
-        Scanner lectura= new Scanner (System.in);
-    int cantidad, g=0, cantidad2 ;
+    int cantidad, cantidad2 ;
     cantidad=0;
     cantidad2=0;
-    String sexo=lectura.nextLine();
-    for(g=1;g<=10;g++)
+    
+    for( int x=1;x<=10;x++)
     {
         System.out.println("Elija su genero:");
+        String sexo= entrada.nextLine();
         if (sexo.equals("hombre"))
         {
             cantidad=cantidad+1;
@@ -22,9 +23,7 @@ public class Curso{
             System.out.println("Error en el sistema");
         }
     }
-    System.out.println("La cantidad de hombres que ahi en el salon son" + cantidad);
-    System.out.println("La cantidad demujeres que ahi en el salon son" + cantidad2);
-    
-    lectura.close();
+    System.out.println("La cantidad de hombres que ahi en el salon son " + cantidad);
+    System.out.println("La cantidad demujeres que ahi en el salon son " + cantidad2);
     }
 }
