@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Presupuesto{
     public static void main(String[] args) throws Exception {
         Scanner lectura = new Scanner (System.in);
-    int spent,budget,totals,op,contador;
+    int spent,budget,op,contador;
     op=1;
     contador=1;
     budget=100000;
@@ -18,7 +18,6 @@ public class Presupuesto{
         op=lectura.nextInt();
         contador =contador+1;
     }
-
     lectura.close();
     }
 }
