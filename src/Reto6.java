@@ -7,7 +7,7 @@ public class Reto6{
         dado1= (int) (Math.random()*6+1);
         dado2= (int) (Math.random()*6+1);
         resultado=dado1+dado2;
-
+        
         if (dado1==1 && dado2==1)
         {
             System.out.println("El dado numero uno cayo en " + dado1 + " Y el dado dos cayo en " + dado2);
