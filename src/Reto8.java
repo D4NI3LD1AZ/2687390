@@ -4,7 +4,7 @@ public class Reto8{
     public static void main(String[] args) throws Exception{
 
         int  x=0,valor=0,desc,total,producto,cantidad,precio,sub, bola=(int) (Math.random()*4+1);
-        System.out.println("Digite el la cantidad de productos que va a comprar");
+        System.out.println("Digite la cantidad de productos que va a comprar");
         producto=entrada.nextInt();
         for (x=1;x<=producto;x++)
         {
@@ -42,7 +42,7 @@ public class Reto8{
             desc=(valor*100)/100;
             total=valor-desc;
             System.out.println("Su valor a pagar con el descuento es del: " + total);
-        }
+        }   
         else
         {
             System.out.println("Usted no cuenta con ningun descuento.");
