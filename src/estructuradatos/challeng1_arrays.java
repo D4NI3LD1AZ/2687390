@@ -16,15 +16,15 @@ public class challeng1_arrays {
         }
         promedio=suma/notes;
         lectura.close();
-        if ( promedio<3.0){
+        if ( promedio <= 30){
             System.out.println("Su promedio fue:"+promedio);
-            System.out.println("Reprobo la materiaa");
+            System.out.println("Reprobo la materia");
         }
-        else if (promedio<4.0){
+        else if (promedio<40){
             System.out.println("Su promedio fue:"+promedio);
             System.out.println("Paso raspando la materia");
         }
-        else if (promedio>4.0){
+        else if (promedio>41){
             System.out.println("Su promedio fue:"+promedio);
             System.out.println("Aprobaste la materia");
         }
