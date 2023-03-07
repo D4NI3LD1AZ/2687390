@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Curso{
+public class Course{
     static Scanner entrada=new Scanner (System.in);
     public static void main(String[] args) throws Exception {
     int cantidad, cantidad2 ;

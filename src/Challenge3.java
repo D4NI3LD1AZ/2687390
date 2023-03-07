@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-public class Azar {
+public class Challenge3 {
     public static void main(String[] args) throws Exception{
        boolean azar,moneda;
        Scanner lectura=new Scanner (System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Reto4{
+public class Challenge4{
     public static void main(String[] args) throws Exception{
 
         int num=(int) (Math.random()*3+1);

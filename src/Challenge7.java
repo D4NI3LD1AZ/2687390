@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Reto7{
+public class Challenge7{
     public static void main(String[] args) throws Exception{
         Scanner lectura=new Scanner (System.in);
 

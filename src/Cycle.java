@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ciclo{
+public class Cycle{
     public static void main(String[] args) throws Exception {
         Scanner lectura = new Scanner (System.in);
     int precio, cantidad, contador, subtotal,acumulador;

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Calculadora {
+public class Calculator {
 
     public static void main(String[] args) throws Exception {
     Scanner lectura = new Scanner (System.in);

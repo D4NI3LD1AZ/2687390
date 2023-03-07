@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Reto8{
+public class Challenge8{
     static Scanner entrada=new Scanner(System.in);
     public static void main(String[] args) throws Exception{
 
